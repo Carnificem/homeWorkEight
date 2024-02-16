@@ -14,21 +14,21 @@ public class Main {
         long[] astro = {299_792_458, 149_597_870l, 308_567_757l};
         //задача 2
         System.out.println("Задача 2");
-        for(int i =0;i< one.length;i++){
+        for (int i = 0; i < one.length; i++) {
             System.out.print(one[i]);
-            if(i!= one.length-1){
+            if (i != one.length - 1) {
                 System.out.print(",");
             }
         }
         System.out.println();
-        for(int i =0;i<twoo.length;i++){
+        for (int i = 0; i < twoo.length; i++) {
             System.out.print(twoo[i]);
-            if(i!= twoo.length-1){
+            if (i != twoo.length - 1) {
                 System.out.print(",");
             }
         }
         System.out.println();
-        for(int i =0;i<astro.length;i++) {
+        for (int i = 0; i < astro.length; i++) {
             System.out.print(astro[i]);
             if (i != astro.length - 1) {
                 System.out.print(",");
@@ -36,35 +36,35 @@ public class Main {
         }
         //задача 3
         System.out.println("\nЗадача 3");
-        for(int i = one.length-1;i>=0;i--){
+        for (int i = one.length - 1; i >= 0; i--) {
             System.out.print(one[i]);
-            if(i!=0){
+            if (i != 0) {
                 System.out.print(",");
             }
         }
         System.out.println();
-        for(int i = twoo.length-1;i>=0;i--){
+        for (int i = twoo.length - 1; i >= 0; i--) {
             System.out.print(twoo[i]);
-            if(i!= 0){
+            if (i != 0) {
                 System.out.print(",");
             }
         }
         System.out.println();
-        for(int i = astro.length-1;i>=0;i--) {
+        for (int i = astro.length - 1; i >= 0; i--) {
             System.out.print(astro[i]);
-            if (i !=0) {
+            if (i != 0) {
                 System.out.print(",");
             }
         }
         // Задача 4
-           System.out.println("\nзадача 4");
-          for (int i = 0; i < one.length; i++) {
-              if (one[i] % 2 != 0) {
-                  one[i]++;
-              }
-              System.out.print(one[i] + " ");
+        System.out.println("\nзадача 4");
+        for (int i = 0; i < one.length; i++) {
+            if (one[i] % 2 != 0) {
+                one[i]++;
             }
+            System.out.print(one[i] + " ");
         }
+    }
 
 }
 
